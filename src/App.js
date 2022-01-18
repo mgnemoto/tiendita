@@ -1,8 +1,8 @@
 import './App.css';
-import NavBar from './components/NavBar';
+import NavBar from './components/navbar/NavBar';
 import ItemListContainer from './components/container/ItemListContainer';
 
-const greetings = "Bienvenidos a mi tiendita"
+const greetings = "Bienvenidos a la tiendita"
 
 function App() {
   return (

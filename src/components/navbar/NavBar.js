@@ -1,4 +1,4 @@
-import ShoppingCart from './CartWiged';
+import ShoppingCart from '../CartWiged';
 import './style.css'
 
 
