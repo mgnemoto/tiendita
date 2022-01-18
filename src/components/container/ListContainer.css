@@ -1,0 +1,11 @@
+h2{
+    margin: 1% 0%;
+    font-size: 30px;
+    color: black;
+    display: flex;
+        justify-content: center;
+    transition: all 1s;
+}
+h2:hover{
+    padding-left: 1%;
+}

@@ -1,12 +1,13 @@
+import ShoppingCart from './CartWiged';
 import './style.css'
-import carrito from "../assets/carrito blanco.svg"
+
 
 function NavBar(){
     return(
         <nav className="flexBar">
-            <button>Home</button>
-            <button>Catálogo</button>
-            <button><img src={carrito} alt='Carrito'/></button>
+            <button className="navButton">Home</button>
+            <button className="navButton">Catálogo</button>
+            <ShoppingCart/>
         </nav>
     )
 }
