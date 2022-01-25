@@ -1,4 +1,4 @@
-import ItemCount from '../itemcount/ItemCount'
+import ItemList from '../items/ItemList'
 import './ListContainer.css'
 
 function ItemListContainer(props){
@@ -7,7 +7,9 @@ function ItemListContainer(props){
     <h2>
         {props.mensaje}
     </h2>
-    <ItemCount stock={8} initial={0}/>
+    <div className='mt-2 d-flex justify-content-around'>
+        <ItemList/>
+    </div>
     </>
     )    
 }
