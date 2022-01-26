@@ -1,0 +1,18 @@
+{
+    "productos":[
+        {"id": 1,
+        "name":"pepe",
+        "price":300
+        },
+        {"id": 2,
+        "name":"carlos",
+        "price":500},
+         {"id": 3,
+        "name":"mateo",
+        "price":600
+        },
+        {"id": 4,
+         "name":"pedro",
+        "price":500}
+    ]
+}

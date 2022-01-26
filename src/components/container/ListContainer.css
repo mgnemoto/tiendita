@@ -1,4 +1,4 @@
-h2{
+.animacion{
     margin: 1% 0%;
     font-size: 30px;
     color: black;
@@ -6,6 +6,6 @@ h2{
         justify-content: center;
     transition: all 1s;
 }
-h2:hover{
+.animacion:hover{
     padding-left: 1%;
 }
